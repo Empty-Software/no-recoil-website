@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body {
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.FirstSee {
+    margin: 0;
+    z-index: 4;
+}
+
+.Introduction {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green; */
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.name::before {
+    content: "Null Software - No Recoil Script";
+    font-size: 16px;
+    color: #424242;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.name {
+    font-size: 32px;
+    text-align: center;
+    animation: showup 2s;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+}
+
+.name::after {
+    content: "";
+}
+
+.undername {
+    opacity: 0;
+    font-size: 16px;
+    animation: showup 2s forwards 2s;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    z-index: 2;
+    font-weight: 200;
+}
+
+fox {
+    color: #707070;
+}
+
+.btn {
+    position: absolute;
+    opacity: 0;
+    font-size: 16px;
+    animation: showup 2s forwards 4s;
+    transition: all 0.3s ease 0s;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.btn:hover {
+    color: #444444;
+    border: 2px solid #444444;
+}
+
+.btnno1 {
+    position: absolute;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    top: 77%;
+    left: 45%;
+    transform: translate(-50%, -50%)
+}
+.btnno1:hover {
+    color: #444444;
+    border: 2px solid #444444;
+}
+
+.btnno2 {
+    position: absolute;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    top: 77%;
+    left: 55%;
+    transform: translate(-50%, -50%)
+}
+.btnno2:hover {
+    color: #444444;
+    border: 2px solid #444444;
+}
+
+@keyframes showup {
+    0%
+    {
+        opacity: 0;
+    }
+
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+#more {
+    background: #000000;
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.custom-shape-divider-top-1669818841 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 105%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 2;
+}
+
+.custom-shape-divider-top-1669818841 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1669818841 .shape-fill {
+    fill: #424242;
+}
+
+.Created {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.Created2 {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    font-size: 16px;
+    transform: translate(-50%, -50%)
+}
+.Created3 {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    font-size: 16px;
+    transform: translate(-550%, -50%)
+}
+
+.Undercreated {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    text-align: center;
+}
